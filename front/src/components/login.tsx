@@ -21,13 +21,13 @@ const Login = () => {
           <input id="remember_me" type="checkbox" className="border border-gray-300 text-red-600 shadow-sm focus:border-red-300 focus:ring focus:ring-red-200 focus:ring-opacity-50" />
           <label htmlFor="remember_me" className="ml-2 block text-sm leading-5 text-gray-900"> Recuérdame </label>
         </div>
-        <a href="#" className="text-sm"> ¿Olvidaste la contraseña? </a>
+        <a href="." className="text-sm"> ¿Olvidaste la contraseña? </a>
       </div>
       <div className="mt-6">
         <button className="w-full inline-flex items-center justify-center px-4 py-2 bg-red-600 border border-transparent rounded-md font-semibold capitalize text-white hover:bg-red-700 active:bg-red-700 focus:outline-none focus:border-red-700 focus:ring focus:ring-red-200 disabled:opacity-25 transition">Sign In</button>
       </div>
       <div className="mt-6 text-center">
-        <a href="#" className="underline"> Regístrate para obtener una cuenta</a>
+        <a href="." className="underline"> Regístrate para obtener una cuenta</a>
       </div>
     </form>
   </div>

@@ -1,6 +1,10 @@
 import express from 'express'
+import * as MySQLConnector from './utils/mysql.connector'
 
 const app = express()
+// Create database pool
+MySQLConnector.init()
+
 app.use(express.json()) // middleware que transforma la req.body a un json
 
 app.post('/register', (req, res) => {
